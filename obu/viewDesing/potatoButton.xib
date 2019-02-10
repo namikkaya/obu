@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Barlow-Regular.otf">
+            <string>Barlow-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="potatoButton" customModule="obu" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="QqF-FU-1T1" id="Ndr-Gn-HsE"/>
+                <outlet property="titleText" destination="UuH-QU-CTq" id="fj4-U1-Ld8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="206" height="98"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqF-FU-1T1">
+                    <rect key="frame" x="0.0" y="0.0" width="206" height="98"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuH-QU-CTq">
+                            <rect key="frame" x="8" y="40" width="190" height="18"/>
+                            <fontDescription key="fontDescription" name="Barlow-Regular" family="Barlow" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2004266901" green="0.64551160829999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="UuH-QU-CTq" secondAttribute="trailing" constant="8" id="1mc-NC-15v"/>
+                        <constraint firstItem="UuH-QU-CTq" firstAttribute="centerY" secondItem="QqF-FU-1T1" secondAttribute="centerY" id="c3a-WQ-NHr"/>
+                        <constraint firstItem="UuH-QU-CTq" firstAttribute="leading" secondItem="QqF-FU-1T1" secondAttribute="leading" constant="8" id="zSI-6A-d6t"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="09V-UC-DTe"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="6Iy-S9-G6T"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="FsK-Fk-wYI"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="KSB-Fa-od1"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Wfg-lY-baO"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="WlM-93-LKJ"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bp1-3y-Fq8"/>
+                <constraint firstItem="QqF-FU-1T1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ufS-do-6KE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-4.7999999999999998" y="-102.54872563718142"/>
+        </view>
+    </objects>
+</document>

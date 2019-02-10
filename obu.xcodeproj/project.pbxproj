@@ -7,13 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06002422174658CDA5575BE8 /* Pods_obu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4026B537E0BD3F0B02539EAC /* Pods_obu.framework */; };
 		4D33B6C221E14F2C00AD3FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6C121E14F2C00AD3FAD /* AppDelegate.swift */; };
-		4D33B6C421E14F2C00AD3FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6C321E14F2C00AD3FAD /* ViewController.swift */; };
 		4D33B6C721E14F2C00AD3FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D33B6C521E14F2C00AD3FAD /* Main.storyboard */; };
 		4D33B6C921E14F2F00AD3FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D33B6C821E14F2F00AD3FAD /* Assets.xcassets */; };
 		4D33B6CC21E14F2F00AD3FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D33B6CA21E14F2F00AD3FAD /* LaunchScreen.storyboard */; };
 		4D33B6D721E14F2F00AD3FAD /* obuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6D621E14F2F00AD3FAD /* obuTests.swift */; };
 		4D33B6E221E14F2F00AD3FAD /* obuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6E121E14F2F00AD3FAD /* obuUITests.swift */; };
+		4D33B6F021E14FED00AD3FAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D33B6EF21E14FED00AD3FAD /* GoogleService-Info.plist */; };
+		4D33B6F321E1535B00AD3FAD /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6F221E1535B00AD3FAD /* registerViewController.swift */; };
+		4D33B6F621E1588800AD3FAD /* inputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D33B6F521E1588800AD3FAD /* inputTextView.xib */; };
+		4D33B6F821E159BF00AD3FAD /* inputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6F721E159BF00AD3FAD /* inputTextView.swift */; };
+		4D33B6FE21EB4D0200AD3FAD /* userNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B6FD21EB4D0200AD3FAD /* userNavigationController.swift */; };
+		4D33B70021EFB9EB00AD3FAD /* potatoButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D33B6FF21EFB9EB00AD3FAD /* potatoButton.xib */; };
+		4D33B70221EFBC1D00AD3FAD /* potatoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33B70121EFBC1D00AD3FAD /* potatoButton.swift */; };
+		4D864EA122103711005005C1 /* pagingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D864EA022103711005005C1 /* pagingCollectionViewCell.swift */; };
+		4D864EA322103726005005C1 /* pagingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D864EA222103726005005C1 /* pagingCollectionViewCell.xib */; };
+		4D864EA722109779005005C1 /* photoAlbumCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D864EA622109779005005C1 /* photoAlbumCollectionCell.swift */; };
+		4D864EA922109793005005C1 /* photoAlbumCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D864EA822109793005005C1 /* photoAlbumCollectionCell.xib */; };
+		4DAD1E9D21F462D300A256A1 /* Barlow-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E8E21F460F500A256A1 /* Barlow-Black.otf */; };
+		4DAD1E9E21F462D300A256A1 /* Barlow-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9A21F460FB00A256A1 /* Barlow-BlackItalic.otf */; };
+		4DAD1E9F21F462D300A256A1 /* Barlow-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E8B21F460F400A256A1 /* Barlow-Bold.otf */; };
+		4DAD1EA021F462D300A256A1 /* Barlow-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9121F460F700A256A1 /* Barlow-BoldItalic.otf */; };
+		4DAD1EA121F462D300A256A1 /* Barlow-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E8C21F460F500A256A1 /* Barlow-ExtraBold.otf */; };
+		4DAD1EA221F462D300A256A1 /* Barlow-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E8D21F460F500A256A1 /* Barlow-ExtraBoldItalic.otf */; };
+		4DAD1EA321F462D300A256A1 /* Barlow-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9021F460F600A256A1 /* Barlow-ExtraLight.otf */; };
+		4DAD1EA421F462D300A256A1 /* Barlow-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9521F460F800A256A1 /* Barlow-ExtraLightItalic.otf */; };
+		4DAD1EA521F462D300A256A1 /* Barlow-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9921F460FA00A256A1 /* Barlow-Italic.otf */; };
+		4DAD1EA621F462D300A256A1 /* Barlow-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9321F460F800A256A1 /* Barlow-Light.otf */; };
+		4DAD1EA721F462D300A256A1 /* Barlow-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9621F460F900A256A1 /* Barlow-LightItalic.otf */; };
+		4DAD1EA821F462D300A256A1 /* Barlow-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9221F460F700A256A1 /* Barlow-Medium.otf */; };
+		4DAD1EA921F462D300A256A1 /* Barlow-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9821F460FA00A256A1 /* Barlow-MediumItalic.otf */; };
+		4DAD1EAA21F462D300A256A1 /* Barlow-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9721F460F900A256A1 /* Barlow-Regular.otf */; };
+		4DAD1EAB21F462D300A256A1 /* Barlow-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9C21F460FB00A256A1 /* Barlow-SemiBold.otf */; };
+		4DAD1EAC21F462D300A256A1 /* Barlow-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E8F21F460F600A256A1 /* Barlow-SemiBoldItalic.otf */; };
+		4DAD1EAD21F462D300A256A1 /* Barlow-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9421F460F800A256A1 /* Barlow-Thin.otf */; };
+		4DAD1EAE21F462D300A256A1 /* Barlow-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD1E9B21F460FB00A256A1 /* Barlow-ThinItalic.otf */; };
+		4DAD1EB021F4A3C100A256A1 /* toogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD1EAF21F4A3C100A256A1 /* toogleButton.swift */; };
+		4DAD1EB321F8F8C100A256A1 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD1EB221F8F8C100A256A1 /* extension.swift */; };
+		4DDDFFB521FF89B200BC38BC /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDFFB421FF89B200BC38BC /* LocalAuthentication.framework */; };
+		4DDDFFB721FF8F5600BC38BC /* dbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDFFB621FF8F5600BC38BC /* dbManager.swift */; };
+		4DDDFFBB2204F06E00BC38BC /* photoPickerNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDFFBA2204F06E00BC38BC /* photoPickerNavigation.swift */; };
+		4DDDFFBD2204F77C00BC38BC /* albumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDFFBC2204F77C00BC38BC /* albumsViewController.swift */; };
+		C57D7D7B34A2332D254AA2E8 /* Pods_obuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983062D4FD08BB43A09C446 /* Pods_obuTests.framework */; };
+		DAACCAE4BFC1F1AAE45ACE9E /* Pods_obuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741CA5139692791C8CF68467 /* Pods_obuUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +71,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3983062D4FD08BB43A09C446 /* Pods_obuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4026B537E0BD3F0B02539EAC /* Pods_obu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE26CC1C0B52A505F98632C /* Pods-obuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obuTests/Pods-obuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D33B6BE21E14F2C00AD3FAD /* obu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D33B6C121E14F2C00AD3FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D33B6C321E14F2C00AD3FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D33B6C621E14F2C00AD3FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D33B6C821E14F2F00AD3FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D33B6CB21E14F2F00AD3FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +86,47 @@
 		4D33B6DD21E14F2F00AD3FAD /* obuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D33B6E121E14F2F00AD3FAD /* obuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obuUITests.swift; sourceTree = "<group>"; };
 		4D33B6E321E14F2F00AD3FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D33B6EF21E14FED00AD3FAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D33B6F221E1535B00AD3FAD /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		4D33B6F521E1588800AD3FAD /* inputTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = inputTextView.xib; sourceTree = "<group>"; };
+		4D33B6F721E159BF00AD3FAD /* inputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputTextView.swift; sourceTree = "<group>"; };
+		4D33B6FD21EB4D0200AD3FAD /* userNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userNavigationController.swift; sourceTree = "<group>"; };
+		4D33B6FF21EFB9EB00AD3FAD /* potatoButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = potatoButton.xib; sourceTree = "<group>"; };
+		4D33B70121EFBC1D00AD3FAD /* potatoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potatoButton.swift; sourceTree = "<group>"; };
+		4D864EA022103711005005C1 /* pagingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagingCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D864EA222103726005005C1 /* pagingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pagingCollectionViewCell.xib; sourceTree = "<group>"; };
+		4D864EA622109779005005C1 /* photoAlbumCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoAlbumCollectionCell.swift; sourceTree = "<group>"; };
+		4D864EA822109793005005C1 /* photoAlbumCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = photoAlbumCollectionCell.xib; sourceTree = "<group>"; };
+		4DAD1E8B21F460F400A256A1 /* Barlow-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.otf"; sourceTree = "<group>"; };
+		4DAD1E8C21F460F500A256A1 /* Barlow-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBold.otf"; sourceTree = "<group>"; };
+		4DAD1E8D21F460F500A256A1 /* Barlow-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E8E21F460F500A256A1 /* Barlow-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Black.otf"; sourceTree = "<group>"; };
+		4DAD1E8F21F460F600A256A1 /* Barlow-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9021F460F600A256A1 /* Barlow-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.otf"; sourceTree = "<group>"; };
+		4DAD1E9121F460F700A256A1 /* Barlow-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BoldItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9221F460F700A256A1 /* Barlow-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.otf"; sourceTree = "<group>"; };
+		4DAD1E9321F460F800A256A1 /* Barlow-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.otf"; sourceTree = "<group>"; };
+		4DAD1E9421F460F800A256A1 /* Barlow-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Thin.otf"; sourceTree = "<group>"; };
+		4DAD1E9521F460F800A256A1 /* Barlow-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9621F460F900A256A1 /* Barlow-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-LightItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9721F460F900A256A1 /* Barlow-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.otf"; sourceTree = "<group>"; };
+		4DAD1E9821F460FA00A256A1 /* Barlow-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-MediumItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9921F460FA00A256A1 /* Barlow-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Italic.otf"; sourceTree = "<group>"; };
+		4DAD1E9A21F460FB00A256A1 /* Barlow-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BlackItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9B21F460FB00A256A1 /* Barlow-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ThinItalic.otf"; sourceTree = "<group>"; };
+		4DAD1E9C21F460FB00A256A1 /* Barlow-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.otf"; sourceTree = "<group>"; };
+		4DAD1EAF21F4A3C100A256A1 /* toogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toogleButton.swift; sourceTree = "<group>"; };
+		4DAD1EB221F8F8C100A256A1 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		4DDDFFB421FF89B200BC38BC /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		4DDDFFB621FF8F5600BC38BC /* dbManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbManager.swift; sourceTree = "<group>"; };
+		4DDDFFBA2204F06E00BC38BC /* photoPickerNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoPickerNavigation.swift; sourceTree = "<group>"; };
+		4DDDFFBC2204F77C00BC38BC /* albumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumsViewController.swift; sourceTree = "<group>"; };
+		57FC5E185F287A8361ABD73B /* Pods-obu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obu/Pods-obu.debug.xcconfig"; sourceTree = "<group>"; };
+		741CA5139692791C8CF68467 /* Pods_obuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79235C1CB175B3F55C0BC8F9 /* Pods-obu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obu.release.xcconfig"; path = "Pods/Target Support Files/Pods-obu/Pods-obu.release.xcconfig"; sourceTree = "<group>"; };
+		80405DE2FF9053C4223260E8 /* Pods-obuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obuUITests/Pods-obuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A74FD6BA15B0C7647CD7620A /* Pods-obuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-obuTests/Pods-obuTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCD66A5CB94BC3289E0554C8 /* Pods-obuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-obuUITests/Pods-obuUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDDFFB521FF89B200BC38BC /* LocalAuthentication.framework in Frameworks */,
+				06002422174658CDA5575BE8 /* Pods_obu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57D7D7B34A2332D254AA2E8 /* Pods_obuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAACCAE4BFC1F1AAE45ACE9E /* Pods_obuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +165,8 @@
 				4D33B6D521E14F2F00AD3FAD /* obuTests */,
 				4D33B6E021E14F2F00AD3FAD /* obuUITests */,
 				4D33B6BF21E14F2C00AD3FAD /* Products */,
+				8730E37E0CEE9C3377D4DD59 /* Pods */,
+				4D470E6C13451AA518B6FE4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +183,17 @@
 		4D33B6C021E14F2C00AD3FAD /* obu */ = {
 			isa = PBXGroup;
 			children = (
+				4DDDFFB92204F03E00BC38BC /* photoPicker */,
+				4DAD1EB121F8F8AC00A256A1 /* library */,
+				4DAD1E8921F460C900A256A1 /* assets */,
+				4D33B6F421E153CD00AD3FAD /* viewDesing */,
+				4D33B6F121E1534200AD3FAD /* userController */,
 				4D33B6C121E14F2C00AD3FAD /* AppDelegate.swift */,
-				4D33B6C321E14F2C00AD3FAD /* ViewController.swift */,
 				4D33B6C521E14F2C00AD3FAD /* Main.storyboard */,
 				4D33B6C821E14F2F00AD3FAD /* Assets.xcassets */,
 				4D33B6CA21E14F2F00AD3FAD /* LaunchScreen.storyboard */,
 				4D33B6CD21E14F2F00AD3FAD /* Info.plist */,
+				4D33B6EF21E14FED00AD3FAD /* GoogleService-Info.plist */,
 			);
 			path = obu;
 			sourceTree = "<group>";
@@ -125,6 +216,106 @@
 			path = obuUITests;
 			sourceTree = "<group>";
 		};
+		4D33B6F121E1534200AD3FAD /* userController */ = {
+			isa = PBXGroup;
+			children = (
+				4D33B6F221E1535B00AD3FAD /* registerViewController.swift */,
+				4D33B6FD21EB4D0200AD3FAD /* userNavigationController.swift */,
+			);
+			path = userController;
+			sourceTree = "<group>";
+		};
+		4D33B6F421E153CD00AD3FAD /* viewDesing */ = {
+			isa = PBXGroup;
+			children = (
+				4D33B6F521E1588800AD3FAD /* inputTextView.xib */,
+				4D33B6F721E159BF00AD3FAD /* inputTextView.swift */,
+				4D33B6FF21EFB9EB00AD3FAD /* potatoButton.xib */,
+				4D33B70121EFBC1D00AD3FAD /* potatoButton.swift */,
+				4DAD1EAF21F4A3C100A256A1 /* toogleButton.swift */,
+				4D864EA022103711005005C1 /* pagingCollectionViewCell.swift */,
+				4D864EA222103726005005C1 /* pagingCollectionViewCell.xib */,
+				4D864EA622109779005005C1 /* photoAlbumCollectionCell.swift */,
+				4D864EA822109793005005C1 /* photoAlbumCollectionCell.xib */,
+			);
+			path = viewDesing;
+			sourceTree = "<group>";
+		};
+		4D470E6C13451AA518B6FE4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DDDFFB421FF89B200BC38BC /* LocalAuthentication.framework */,
+				4026B537E0BD3F0B02539EAC /* Pods_obu.framework */,
+				3983062D4FD08BB43A09C446 /* Pods_obuTests.framework */,
+				741CA5139692791C8CF68467 /* Pods_obuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DAD1E8921F460C900A256A1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD1E8A21F460CF00A256A1 /* font */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		4DAD1E8A21F460CF00A256A1 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD1E8E21F460F500A256A1 /* Barlow-Black.otf */,
+				4DAD1E9A21F460FB00A256A1 /* Barlow-BlackItalic.otf */,
+				4DAD1E8B21F460F400A256A1 /* Barlow-Bold.otf */,
+				4DAD1E9121F460F700A256A1 /* Barlow-BoldItalic.otf */,
+				4DAD1E8C21F460F500A256A1 /* Barlow-ExtraBold.otf */,
+				4DAD1E8D21F460F500A256A1 /* Barlow-ExtraBoldItalic.otf */,
+				4DAD1E9021F460F600A256A1 /* Barlow-ExtraLight.otf */,
+				4DAD1E9521F460F800A256A1 /* Barlow-ExtraLightItalic.otf */,
+				4DAD1E9921F460FA00A256A1 /* Barlow-Italic.otf */,
+				4DAD1E9321F460F800A256A1 /* Barlow-Light.otf */,
+				4DAD1E9621F460F900A256A1 /* Barlow-LightItalic.otf */,
+				4DAD1E9221F460F700A256A1 /* Barlow-Medium.otf */,
+				4DAD1E9821F460FA00A256A1 /* Barlow-MediumItalic.otf */,
+				4DAD1E9721F460F900A256A1 /* Barlow-Regular.otf */,
+				4DAD1E9C21F460FB00A256A1 /* Barlow-SemiBold.otf */,
+				4DAD1E8F21F460F600A256A1 /* Barlow-SemiBoldItalic.otf */,
+				4DAD1E9421F460F800A256A1 /* Barlow-Thin.otf */,
+				4DAD1E9B21F460FB00A256A1 /* Barlow-ThinItalic.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		4DAD1EB121F8F8AC00A256A1 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD1EB221F8F8C100A256A1 /* extension.swift */,
+				4DDDFFB621FF8F5600BC38BC /* dbManager.swift */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		4DDDFFB92204F03E00BC38BC /* photoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4DDDFFBA2204F06E00BC38BC /* photoPickerNavigation.swift */,
+				4DDDFFBC2204F77C00BC38BC /* albumsViewController.swift */,
+			);
+			path = photoPicker;
+			sourceTree = "<group>";
+		};
+		8730E37E0CEE9C3377D4DD59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57FC5E185F287A8361ABD73B /* Pods-obu.debug.xcconfig */,
+				79235C1CB175B3F55C0BC8F9 /* Pods-obu.release.xcconfig */,
+				4CE26CC1C0B52A505F98632C /* Pods-obuTests.debug.xcconfig */,
+				A74FD6BA15B0C7647CD7620A /* Pods-obuTests.release.xcconfig */,
+				80405DE2FF9053C4223260E8 /* Pods-obuUITests.debug.xcconfig */,
+				DCD66A5CB94BC3289E0554C8 /* Pods-obuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D33B6E621E14F2F00AD3FAD /* Build configuration list for PBXNativeTarget "obu" */;
 			buildPhases = (
+				7012226806A53F81102D5770 /* [CP] Check Pods Manifest.lock */,
 				4D33B6BA21E14F2C00AD3FAD /* Sources */,
 				4D33B6BB21E14F2C00AD3FAD /* Frameworks */,
 				4D33B6BC21E14F2C00AD3FAD /* Resources */,
+				F43C3AB4D36C63D17C4092B0 /* [CP] Embed Pods Frameworks */,
+				81386DEF4E0ACB4B0F131A1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D33B6E921E14F2F00AD3FAD /* Build configuration list for PBXNativeTarget "obuTests" */;
 			buildPhases = (
+				841C2F74BCEDE9E5F73F4E4D /* [CP] Check Pods Manifest.lock */,
 				4D33B6CE21E14F2F00AD3FAD /* Sources */,
 				4D33B6CF21E14F2F00AD3FAD /* Frameworks */,
 				4D33B6D021E14F2F00AD3FAD /* Resources */,
@@ -167,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D33B6EC21E14F2F00AD3FAD /* Build configuration list for PBXNativeTarget "obuUITests" */;
 			buildPhases = (
+				42C5B7D2648FFD35BACC8095 /* [CP] Check Pods Manifest.lock */,
 				4D33B6D921E14F2F00AD3FAD /* Sources */,
 				4D33B6DA21E14F2F00AD3FAD /* Frameworks */,
 				4D33B6DB21E14F2F00AD3FAD /* Resources */,
@@ -229,8 +425,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAD1E9D21F462D300A256A1 /* Barlow-Black.otf in Resources */,
+				4DAD1E9E21F462D300A256A1 /* Barlow-BlackItalic.otf in Resources */,
+				4DAD1E9F21F462D300A256A1 /* Barlow-Bold.otf in Resources */,
+				4DAD1EA021F462D300A256A1 /* Barlow-BoldItalic.otf in Resources */,
+				4DAD1EA121F462D300A256A1 /* Barlow-ExtraBold.otf in Resources */,
+				4DAD1EA221F462D300A256A1 /* Barlow-ExtraBoldItalic.otf in Resources */,
+				4DAD1EA321F462D300A256A1 /* Barlow-ExtraLight.otf in Resources */,
+				4DAD1EA421F462D300A256A1 /* Barlow-ExtraLightItalic.otf in Resources */,
+				4DAD1EA521F462D300A256A1 /* Barlow-Italic.otf in Resources */,
+				4D864EA322103726005005C1 /* pagingCollectionViewCell.xib in Resources */,
+				4DAD1EA621F462D300A256A1 /* Barlow-Light.otf in Resources */,
+				4DAD1EA721F462D300A256A1 /* Barlow-LightItalic.otf in Resources */,
+				4D864EA922109793005005C1 /* photoAlbumCollectionCell.xib in Resources */,
+				4DAD1EA821F462D300A256A1 /* Barlow-Medium.otf in Resources */,
+				4DAD1EA921F462D300A256A1 /* Barlow-MediumItalic.otf in Resources */,
+				4DAD1EAA21F462D300A256A1 /* Barlow-Regular.otf in Resources */,
+				4DAD1EAB21F462D300A256A1 /* Barlow-SemiBold.otf in Resources */,
+				4DAD1EAC21F462D300A256A1 /* Barlow-SemiBoldItalic.otf in Resources */,
+				4DAD1EAD21F462D300A256A1 /* Barlow-Thin.otf in Resources */,
+				4DAD1EAE21F462D300A256A1 /* Barlow-ThinItalic.otf in Resources */,
+				4D33B70021EFB9EB00AD3FAD /* potatoButton.xib in Resources */,
 				4D33B6CC21E14F2F00AD3FAD /* LaunchScreen.storyboard in Resources */,
+				4D33B6F021E14FED00AD3FAD /* GoogleService-Info.plist in Resources */,
 				4D33B6C921E14F2F00AD3FAD /* Assets.xcassets in Resources */,
+				4D33B6F621E1588800AD3FAD /* inputTextView.xib in Resources */,
 				4D33B6C721E14F2C00AD3FAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +470,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42C5B7D2648FFD35BACC8095 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-obuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7012226806A53F81102D5770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-obu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81386DEF4E0ACB4B0F131A1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-obu/Pods-obu-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obu/Pods-obu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841C2F74BCEDE9E5F73F4E4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-obuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43C3AB4D36C63D17C4092B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-obu/Pods-obu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obu/Pods-obu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D33B6BA21E14F2C00AD3FAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D33B6C421E14F2C00AD3FAD /* ViewController.swift in Sources */,
+				4D864EA122103711005005C1 /* pagingCollectionViewCell.swift in Sources */,
+				4DDDFFBD2204F77C00BC38BC /* albumsViewController.swift in Sources */,
+				4D33B70221EFBC1D00AD3FAD /* potatoButton.swift in Sources */,
+				4DAD1EB321F8F8C100A256A1 /* extension.swift in Sources */,
+				4D33B6FE21EB4D0200AD3FAD /* userNavigationController.swift in Sources */,
+				4DDDFFB721FF8F5600BC38BC /* dbManager.swift in Sources */,
+				4DDDFFBB2204F06E00BC38BC /* photoPickerNavigation.swift in Sources */,
 				4D33B6C221E14F2C00AD3FAD /* AppDelegate.swift in Sources */,
+				4D864EA722109779005005C1 /* photoAlbumCollectionCell.swift in Sources */,
+				4DAD1EB021F4A3C100A256A1 /* toogleButton.swift in Sources */,
+				4D33B6F321E1535B00AD3FAD /* registerViewController.swift in Sources */,
+				4D33B6F821E159BF00AD3FAD /* inputTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +782,7 @@
 		};
 		4D33B6E721E14F2F00AD3FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FC5E185F287A8361ABD73B /* Pods-obu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +800,7 @@
 		};
 		4D33B6E821E14F2F00AD3FAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79235C1CB175B3F55C0BC8F9 /* Pods-obu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +818,7 @@
 		};
 		4D33B6EA21E14F2F00AD3FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE26CC1C0B52A505F98632C /* Pods-obuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +839,7 @@
 		};
 		4D33B6EB21E14F2F00AD3FAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74FD6BA15B0C7647CD7620A /* Pods-obuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +860,7 @@
 		};
 		4D33B6ED21E14F2F00AD3FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80405DE2FF9053C4223260E8 /* Pods-obuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +880,7 @@
 		};
 		4D33B6EE21E14F2F00AD3FAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD66A5CB94BC3289E0554C8 /* Pods-obuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

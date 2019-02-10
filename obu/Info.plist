@@ -2,6 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) galerinize erişerek gizlemek istediğiniz fotoğrafları saklar.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) kameranızı kullanabilir ve çektiğiniz görselleri gizleyebilirsiniz.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Barlow-Black.otf</string>
+		<string>Barlow-BlackItalic.otf</string>
+		<string>Barlow-Bold.otf</string>
+		<string>Barlow-BoldItalic.otf</string>
+		<string>Barlow-ExtraBold.otf</string>
+		<string>Barlow-ExtraBoldItalic.otf</string>
+		<string>Barlow-ExtraLight.otf</string>
+		<string>Barlow-ExtraLightItalic.otf</string>
+		<string>Barlow-Italic.otf</string>
+		<string>Barlow-Light.otf</string>
+		<string>Barlow-LightItalic.otf</string>
+		<string>Barlow-Medium.otf</string>
+		<string>Barlow-MediumItalic.otf</string>
+		<string>Barlow-Regular.otf</string>
+		<string>Barlow-SemiBold.otf</string>
+		<string>Barlow-SemiBoldItalic.otf</string>
+		<string>Barlow-Thin.otf</string>
+		<string>Barlow-ThinItalic.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
