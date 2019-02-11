@@ -1,0 +1,6 @@
+framework module Pods_obu {
+  umbrella header "Pods-obu-umbrella.h"
+
+  export *
+  module * { export * }
+}

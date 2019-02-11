@@ -22,7 +22,7 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        collectionViewCollectionConfig()
         navigationBarConfig()
         grabPhotos()
     }
@@ -56,9 +56,9 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     func layoutCells() {
         let layout = UICollectionViewFlowLayout()
         //layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 10, right: 10)
-        //layout.minimumInteritemSpacing = 5.0
-        //layout.minimumLineSpacing = 5.0
-        layout.itemSize = CGSize(width: (UIScreen.main.bounds.size.width - 40)/3, height: ((UIScreen.main.bounds.size.width - 40)/3))
+        layout.minimumInteritemSpacing = 1
+        layout.minimumLineSpacing = 1
+        layout.itemSize = CGSize(width: (UIScreen.main.bounds.size.width-5)/3, height: ((UIScreen.main.bounds.size.width-5)/3))
         collectionView!.collectionViewLayout = layout
     }
     
@@ -80,27 +80,28 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
                         //print("Resim eklendi")
                     }
                 }
-                self.collectionView.reloadData()
+                //self.collectionView.reloadData()
             }else{
                 print("RESİM YOK")
-                self.collectionView.reloadData()
+                //self.collectionView.reloadData()
             }
         }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return imageArray.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photoAlbumCollectionCell", for: indexPath) as! photoAlbumCollectionCell
         cell.backgroundColor = UIColor.red
         cell.imageView.image = imageArray[indexPath.row]
+        print("buraya geliyor mu")
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 2000, height: 200)
+        return CGSize(width: (UIScreen.main.bounds.size.width-5)/3, height: ((UIScreen.main.bounds.size.width-5)/3))
     }
     
     
