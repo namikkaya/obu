@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="87" height="83"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_email.png" translatesAutoresizingMaskIntoConstraints="NO" id="NJb-2t-fXo">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJb-2t-fXo">
                         <rect key="frame" x="0.0" y="0.0" width="87" height="83"/>
                     </imageView>
                 </subviews>
@@ -38,7 +38,4 @@
             <point key="canvasLocation" x="-181.59999999999999" y="111.99400299850076"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="ic_email.png" width="24" height="24"/>
-    </resources>
 </document>

@@ -72,18 +72,12 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
         let fetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
         
-        if let fetchResult:PHFetchResult = PHAsset.fetchAssets(with: PHAssetMediaType.image, options: fetchOptions) {
-            if fetchResult.count > 0 {
-                for i in 0..<fetchResult.count{
-                    imgManager.requestImage(for: fetchResult.object(at: i) as PHAsset, targetSize: CGSize(width: 200, height: 200), contentMode: PHImageContentMode.aspectFill, options: requestOptions) { (image, error) in
-                        self.imageArray.append(image!)
-                        //print("Resim eklendi")
-                    }
+        let fetchResult = PHAsset.fetchAssets(with: PHAssetMediaType.image, options: fetchOptions)
+        if (fetchResult.count > 0) {
+            for i in 0..<fetchResult.count {
+                imgManager.requestImage(for: fetchResult.object(at: i) as PHAsset, targetSize: CGSize(width: 200, height: 200), contentMode: PHImageContentMode.aspectFill, options: requestOptions) { (image, error) in
+                    self.imageArray.append(image!)
                 }
-                //self.collectionView.reloadData()
-            }else{
-                print("RESİM YOK")
-                //self.collectionView.reloadData()
             }
         }
     }
