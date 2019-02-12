@@ -22,17 +22,34 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJb-2t-fXo">
                         <rect key="frame" x="0.0" y="0.0" width="87" height="83"/>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w6C-4O-1vS">
+                        <rect key="frame" x="0.0" y="0.0" width="87" height="83"/>
+                        <color key="backgroundColor" red="0.20392156859999999" green="0.71764705880000002" blue="0.75987222584383551" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iub-c1-sli">
+                        <rect key="frame" x="27.5" y="25" width="32" height="33"/>
+                    </imageView>
                 </subviews>
             </view>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="w6C-4O-1vS" secondAttribute="bottom" id="6Vk-TE-vsv"/>
+                <constraint firstAttribute="trailing" secondItem="w6C-4O-1vS" secondAttribute="trailing" id="FAs-XV-Fj1"/>
                 <constraint firstItem="NJb-2t-fXo" firstAttribute="top" secondItem="cTU-Hk-iRP" secondAttribute="top" id="FM7-fn-1SF"/>
+                <constraint firstItem="w6C-4O-1vS" firstAttribute="top" secondItem="cTU-Hk-iRP" secondAttribute="top" id="T0A-tV-vAA"/>
+                <constraint firstItem="Iub-c1-sli" firstAttribute="centerY" secondItem="cTU-Hk-iRP" secondAttribute="centerY" id="ZZR-T1-Tuq"/>
+                <constraint firstItem="Iub-c1-sli" firstAttribute="centerX" secondItem="cTU-Hk-iRP" secondAttribute="centerX" id="aiF-c6-ymD"/>
+                <constraint firstItem="Iub-c1-sli" firstAttribute="width" secondItem="NJb-2t-fXo" secondAttribute="height" multiplier="32:83" id="dFN-cg-UGM"/>
                 <constraint firstItem="NJb-2t-fXo" firstAttribute="leading" secondItem="cTU-Hk-iRP" secondAttribute="leading" id="eMw-JN-U5I"/>
                 <constraint firstAttribute="trailing" secondItem="NJb-2t-fXo" secondAttribute="trailing" id="fEj-9n-wca"/>
+                <constraint firstItem="Iub-c1-sli" firstAttribute="top" secondItem="cTU-Hk-iRP" secondAttribute="top" constant="25" id="icV-zY-tYw"/>
+                <constraint firstItem="w6C-4O-1vS" firstAttribute="leading" secondItem="cTU-Hk-iRP" secondAttribute="leading" id="wOb-tq-rYH"/>
                 <constraint firstAttribute="bottom" secondItem="NJb-2t-fXo" secondAttribute="bottom" id="zuq-OJ-Mlr"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Lrc-Gs-MYb"/>
             <size key="customSize" width="87" height="83"/>
             <connections>
+                <outlet property="checkImageView" destination="Iub-c1-sli" id="DA1-6c-rz3"/>
+                <outlet property="colorView" destination="w6C-4O-1vS" id="np5-Rp-4XQ"/>
                 <outlet property="imageView" destination="NJb-2t-fXo" id="jct-3W-cS0"/>
             </connections>
             <point key="canvasLocation" x="-181.59999999999999" y="111.99400299850076"/>

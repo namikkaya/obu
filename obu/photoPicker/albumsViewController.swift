@@ -98,7 +98,11 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
         return CGSize(width: (UIScreen.main.bounds.size.width-5)/3, height: ((UIScreen.main.bounds.size.width-5)/3))
     }
     
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cell = collectionView.cellForItem(at: indexPath) as? photoAlbumCollectionCell else { return }
+        cell.check = !cell.check
+        print("click")
+    }
     
     /*
     
