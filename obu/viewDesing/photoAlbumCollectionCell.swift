@@ -18,6 +18,11 @@ class photoAlbumCollectionCell: UICollectionViewCell {
         colorView.isHidden = true
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+    }
+    
     private var checkHolder:Bool = false
     var check:Bool {
         set{

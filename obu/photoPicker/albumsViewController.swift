@@ -88,7 +88,6 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photoAlbumCollectionCell", for: indexPath) as! photoAlbumCollectionCell
-        cell.backgroundColor = UIColor.red
         cell.imageView.image = imageArray[indexPath.row]
         print("buraya geliyor mu")
         return cell
