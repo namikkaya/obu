@@ -56,10 +56,13 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     func layoutCells() {
         let layout = UICollectionViewFlowLayout()
         //layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 10, right: 10)
-        layout.minimumInteritemSpacing = 1
-        layout.minimumLineSpacing = 1
-        layout.itemSize = CGSize(width: (UIScreen.main.bounds.size.width-5)/3, height: ((UIScreen.main.bounds.size.width-5)/3))
+        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = 0
+        layout.itemSize = CGSize(width: (collectionView.frame.width)/3, height: ((collectionView.frame.width)/3))
         collectionView!.collectionViewLayout = layout
+        if #available(iOS 11.0, *) {
+            layout.sectionInsetReference = .fromSafeArea
+        }
     }
     
     
@@ -94,7 +97,7 @@ class albumsViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (UIScreen.main.bounds.size.width-5)/3, height: ((UIScreen.main.bounds.size.width-5)/3))
+        return CGSize(width: (collectionView.frame.width)/3, height: ((collectionView.frame.width)/3))
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
